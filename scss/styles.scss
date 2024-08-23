@@ -1,0 +1,82 @@
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Font Classes */
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blank-space {
+    height: 64px;
+}
+
+#intro {
+    div {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 32px;
+        
+        h1 {
+            letter-spacing: 2px;
+            font-size: 48px;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width: 250px;
+            border-radius: 50%;
+        }
+    }
+}
+
+#about-me {
+    background-color: #D94929;
+    border: solid 1px #D94929;
+    border-radius: 12px;
+    padding: 22px;
+    margin: 10px;
+    color: #1E1E1C;
+    text-align: center;
+}
+
+#skills-container {
+    border: solid 4px #CB445B;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 10px;
+    list-style: none;
+    
+    #skill {
+        text-align: center;
+    }
+}
